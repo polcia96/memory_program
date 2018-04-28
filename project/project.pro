@@ -29,14 +29,16 @@ SOURCES += \
     base.cpp \
     element.cpp \
     word.cpp \
-    picture.cpp
+    picture.cpp \
+    menustart.cpp
 
 HEADERS += \
         mainwindow.h \
     base.h \
     element.h \
     word.h \
-    picture.h
+    picture.h \
+    menustart.h
 
 FORMS += \
         mainwindow.ui

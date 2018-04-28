@@ -4,6 +4,7 @@
 #include "picture.h"
 #include "word.h"
 #include "element.h"
+#include "menustart.h"
 
 using namespace std;
 
@@ -28,8 +29,11 @@ int main(int argc, char *argv[])
    el.writeToFile("element.txt");
    QApplication a(argc, argv);
 
-   MainWindow w(word_1.getName());
-   w.show();
+   //MainWindow w(word_1.getName());
+   //w.show();
+    MenuStart start;
+    start.show();
+
 
    return a.exec();
 }
