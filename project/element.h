@@ -14,6 +14,7 @@ public:
     virtual void add(Base* new_element);
 private:
     std::vector<Base*> elements_;
+    int remembering_rate_;
 };
 
 #endif // ELEMENT_H

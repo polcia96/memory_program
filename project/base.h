@@ -27,7 +27,7 @@ public:
 
 protected:
     std::string name_;
-    int remembering_rate_;
+
 };
 
 #endif // BASE_H

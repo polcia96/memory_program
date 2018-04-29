@@ -21,7 +21,7 @@ void Base::readFromFile(std::string file_name){
         if_stream.close();
     }
     else
-        throw std::exception("Blad odczytu danych z pliku") ;
+        throw std::exception();
 }
 
 void Base::writeToFile(std::string file_name) {
@@ -33,5 +33,5 @@ void Base::writeToFile(std::string file_name) {
         of_stream.close();
     }
     else
-        throw std::exception("zapis danych nie powiodl sie");
+        throw std::exception();
 }

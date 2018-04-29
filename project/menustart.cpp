@@ -31,7 +31,11 @@ MenuStart:: ~MenuStart(){
 void MenuStart::exit_menu(){
     this->close();
 }
-void MenuStart::openAddDatabaseWindow(){}
+void MenuStart::openAddDatabaseWindow(){
+    this->close();
+    add_database_window_ = new AddDatabaseWindow();
+    add_database_window_->show();
+}
 
 void MenuStart::openDeleteDatabaseWidnow(){}
 
