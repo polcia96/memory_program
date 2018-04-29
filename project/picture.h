@@ -18,6 +18,7 @@ public:
 
 private:
     std::string path_;
+    int remembering_rate_;
 };
 
 #endif // PICTURE_H

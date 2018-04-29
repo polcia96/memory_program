@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
     }
     catch (const std::exception& e) {
 
-        cout << e.what();
+        cout << e.what() << "blad odczytu/zapisu z/do pliku";
     }
    Element el;
    el.add(&word_1);

@@ -1,0 +1,3 @@
+<database>
+name=mojaBaza
+name_file =nowaBaza.txt

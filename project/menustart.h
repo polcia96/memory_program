@@ -9,6 +9,7 @@
 #include <QTextCodec>
 
 #include"mainwindow.h"
+#include "adddatabasewindow.h"
 
 class MenuStart : public QWidget
 {
@@ -35,6 +36,7 @@ private:
    // QLabel *label;
    // QLabel *label2;
     MainWindow *main_window_;
+    AddDatabaseWindow * add_database_window_;
 
 
 };

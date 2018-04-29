@@ -13,6 +13,8 @@
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QFrame>
+#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
@@ -25,9 +27,12 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
+    QWidget *centralWidget;
+    QWidget *gridLayoutWidget;
+    QGridLayout *gridLayout;
+    QFrame *frame;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
-    QWidget *centralWidget;
     QStatusBar *statusBar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -35,15 +40,31 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
         MainWindow->resize(400, 300);
+        centralWidget = new QWidget(MainWindow);
+        centralWidget->setObjectName(QStringLiteral("centralWidget"));
+        gridLayoutWidget = new QWidget(centralWidget);
+        gridLayoutWidget->setObjectName(QStringLiteral("gridLayoutWidget"));
+        gridLayoutWidget->setGeometry(QRect(39, 30, 161, 221));
+        gridLayout = new QGridLayout(gridLayoutWidget);
+        gridLayout->setSpacing(6);
+        gridLayout->setContentsMargins(11, 11, 11, 11);
+        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        gridLayout->setContentsMargins(0, 0, 0, 0);
+        frame = new QFrame(gridLayoutWidget);
+        frame->setObjectName(QStringLiteral("frame"));
+        frame->setFrameShape(QFrame::StyledPanel);
+        frame->setFrameShadow(QFrame::Raised);
+
+        gridLayout->addWidget(frame, 0, 0, 1, 1);
+
+        MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
+        menuBar->setGeometry(QRect(0, 0, 400, 17));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
-        MainWindow->addToolBar(mainToolBar);
-        centralWidget = new QWidget(MainWindow);
-        centralWidget->setObjectName(QStringLiteral("centralWidget"));
-        MainWindow->setCentralWidget(centralWidget);
+        MainWindow->addToolBar(Qt::TopToolBarArea, mainToolBar);
         statusBar = new QStatusBar(MainWindow);
         statusBar->setObjectName(QStringLiteral("statusBar"));
         MainWindow->setStatusBar(statusBar);

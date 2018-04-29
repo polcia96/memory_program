@@ -30,7 +30,12 @@ SOURCES += \
     element.cpp \
     word.cpp \
     picture.cpp \
-    menustart.cpp
+    menustart.cpp \
+    elementsdatabase.cpp \
+    adddatabaseobserver.cpp \
+    adddatabasewindow.cpp \
+    deletedatabaseobserver.cpp \
+    database.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -38,7 +43,12 @@ HEADERS += \
     element.h \
     word.h \
     picture.h \
-    menustart.h
+    menustart.h \
+    elementsdatabase.h \
+    adddatabaseobserver.h \
+    adddatabasewindow.h \
+    deletedatabaseobserver.h \
+    database.h
 
 FORMS += \
         mainwindow.ui

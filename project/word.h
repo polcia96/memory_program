@@ -22,6 +22,7 @@ public:
 private:
     std::string foreign_word_;
     std::string native_word_;
+    int remembering_rate_;
 };
 
 #endif // WORD_H
