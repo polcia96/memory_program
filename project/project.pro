@@ -35,7 +35,8 @@ SOURCES += \
     adddatabaseobserver.cpp \
     adddatabasewindow.cpp \
     deletedatabaseobserver.cpp \
-    database.cpp
+    database.cpp \
+    databaseslist.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -48,7 +49,8 @@ HEADERS += \
     adddatabaseobserver.h \
     adddatabasewindow.h \
     deletedatabaseobserver.h \
-    database.h
+    database.h \
+    databaseslist.h
 
 FORMS += \
         mainwindow.ui

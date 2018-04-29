@@ -6,24 +6,19 @@ ElementsDatabase::~ElementsDatabase(){}
 
 //do poprawy //
 void ElementsDatabase::importData(std::istream& in_){
-    in_.ignore(std::numeric_limits<std::streamsize>::max(), '>');
-    in_.ignore(std::numeric_limits<std::streamsize>::max(), '=');
-    in_  >> name_;
-
-    in_.ignore(std::numeric_limits<std::streamsize>::max(), '=');
-    in_ >>file_name_;
+    database_.importData(in_);
+    for(unsigned int i=0; i<database_.getElementsNumber(); ++i)
+        elements_[i].importData(in_);
 }
 
 void ElementsDatabase::exportData(std::ostream& out_){
-    out_<<"<database>" <<std::endl;
-    out_<<"name=" <<name_ <<std::endl;
-    out_<<"name_file =" <<file_name_ <<std::endl;
+    database_.exportData(out_);
 
 }
 
 void ElementsDatabase::writeDatabase(){
     std::ofstream of_stream;
-    of_stream.open(file_name_, std::ios_base::app);
+    of_stream.open(database_.getFileName(), std::ios_base::app);
 
     if (of_stream.good()) {
 
@@ -35,17 +30,20 @@ void ElementsDatabase::writeDatabase(){
     else
         throw std::exception();
 }
-
+//ostatecznie zapisuje wszystko do pliku
 void ElementsDatabase::writeToFile(){
-   Base::writeToFile(file_databases_name_);
+   database_.writeToFile(database_.getDatabasesFileName());
    writeDatabase();
 }
-//TODO:
-void ElementsDatabase::readFromFile(){}
+//ostatecznie ma odczytac wszystko z pliku
+void ElementsDatabase::readFromFile(){
+    database_.readFromFile(database_.getDatabasesFileName());
+
+}
 
 void ElementsDatabase::readDatabase(){
     std::ifstream if_stream;
-    if_stream.open(file_name_);
+    if_stream.open(database_.getFileName());
 
     if (if_stream.good()) {
         for(int i=0; i< elements_.size(); ++i)
@@ -60,5 +58,5 @@ void ElementsDatabase::add(Element new_element){
 }
 
 void ElementsDatabase::setFileName(std::string file_name){
-    file_name_=file_name;
+    database_.setFileName(file_name);
 }

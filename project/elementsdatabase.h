@@ -4,13 +4,14 @@
 #include<vector>
 #include "element.h"
 #include "base.h"
+#include "database.h"
 
 class ElementsDatabase:public  Base
 {
 public:
     ElementsDatabase();
     virtual ~ElementsDatabase();
-    virtual void update(Element new_element) =0;
+    //virtual void update(Element new_element) =0;
     virtual void importData(std::istream& in_);
     virtual void exportData(std::ostream& out_);
     virtual void add(Base*) {}
@@ -26,11 +27,7 @@ public:
 
 protected:
     std::vector<Element> elements_;
-    std::string file_name_;
-    //z tego zrobic jakos static
-    std::string file_databases_name_="databases.txt";
-
-
+    Database database_;
 };
 
 #endif // ELEMENTSDATABASE_H
