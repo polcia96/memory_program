@@ -29,8 +29,8 @@ public:
     virtual void add(Picture new_element);
 
     void setDatabase(Database database);
-    //JAKO NAZWE MUSI USTAWIAC PLIK W KTORYM BEDZIE MODYFIKOWAL DANE
-    //virtual void setName(std::string);
+
+    unsigned int getElementsNumber();
 
 protected:
     std::vector<Element> elements_;

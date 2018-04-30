@@ -1,0 +1,38 @@
+(Element)
+elemrnts_number=0<word>name= word1
+remembering_rate =2
+native_word = kot
+foreign_word = cat
+[Picture]name = picture_1
+remembering_rate =3
+path = "img/cat.jpg"
+(Element)
+elemrnts_number=0<word>name= word1
+native_word = 2;
+foreign_word = kot
+[Picture]name = picture_1
+path = 3;
+(Element)
+elemrnts_number=0<word>name= word1
+native_word = 2;
+foreign_word = kot
+[Picture]name = picture_1
+path = 3;
+(Element)
+elemrnts_number=0<word>name= word1
+native_word = 2;
+foreign_word = kot
+[Picture]name = picture_1
+path = 3;
+(Element)
+elemrnts_number=0<word>name= word1
+native_word = 2;
+foreign_word = kot
+[Picture]name = picture_1
+path = 3;
+(Element)
+elemrnts_number=0<word>name= word1
+native_word = 2;
+foreign_word = kot
+[Picture]name = picture_1
+path = 3;

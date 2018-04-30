@@ -65,14 +65,13 @@ int main(int argc, char *argv[])
    el.writeToFile("element.txt");
    QApplication a(argc, argv);
 
-   //MainWindow w(word_1.getName());
-   //w.show();
-    MenuStart start;
-    start.show();
+
+    //MenuStart start;
+    //start.show();
 
     DeleteDatabaseObserver * ob =new DeleteDatabaseObserver();
-    ob->update("firstDatabase");
-    cout<<"bazy po usunieciu firstDatabase"<<endl;
+    ob->update("emptyDatabase");
+    cout<<"bazy po usunieciu emptyDatabase"<<endl;
     ob->getDatabasesList()->exportData(cout);
 
 

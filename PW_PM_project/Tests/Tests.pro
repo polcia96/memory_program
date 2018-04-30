@@ -27,6 +27,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        tst_adddatabasetest.cpp 
+    test.cpp \
+    ../zpr_project/base.cpp \
+    ../zpr_project/picture.cpp \
+    ../zpr_project/word.cpp \
+    ../zpr_project/element.cpp \
+    ../zpr_project/database.cpp \
+    ../zpr_project/databaseslist.cpp \
+    ../zpr_project/elementsdatabase.cpp \
+    ../zpr_project/deletedatabaseobserver.cpp \
+    ../zpr_project/adddatabaseobserver.cpp \
+
+
+INCLUDEPATH += \
+    ../zpr_project
 
 DEFINES += SRCDIR=\\\"$$PWD/\\\"

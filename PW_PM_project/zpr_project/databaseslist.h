@@ -20,6 +20,8 @@ public:
     virtual void readFromFile();
     virtual void writeToFile();
     virtual void add(Base*);
+    virtual void add(Database new_database);
+    virtual unsigned int getDatabasesNumber();
 
     Database* findDatabase(std::string database_name);
     void eraseDatabase(std::string database_name);

@@ -4,7 +4,6 @@ ElementsDatabase::ElementsDatabase(){}
 
 ElementsDatabase::~ElementsDatabase(){}
 
-//do poprawy //
 void ElementsDatabase::importData(std::istream& in_){
     database_.importData(in_);
     for(unsigned int i=0; i<database_.getElementsNumber(); ++i)
@@ -76,4 +75,7 @@ void ElementsDatabase::setDatabase(Database database){
 }
 void ElementsDatabase::setName(std::string name){
     database_.setName(name);
+}
+unsigned int ElementsDatabase::getElementsNumber(){
+    return elements_.size();
 }

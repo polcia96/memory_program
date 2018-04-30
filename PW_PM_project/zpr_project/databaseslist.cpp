@@ -61,8 +61,13 @@ void DatabasesList::eraseDatabase(std::string database_name){
     if(temp_database!=nullptr){
         temp_database->deleteDatabase();
        databases_.erase(database_name);
-
     }
-
-
 }
+void DatabasesList::add(Database new_database){
+        databases_.insert(std::make_pair(new_database.getName(),new_database));
+    }
+unsigned int DatabasesList::getDatabasesNumber(){
+    return databases_.size();
+}
+
+
