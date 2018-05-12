@@ -30,8 +30,6 @@ int main(int argc, char *argv[])
     ElementsDatabase second_data;
     second_data.setDatabase(empty_database);
 
-    DatabasesList list;
-
      try{
         /*
          * zczytanie danych z pliku
@@ -51,9 +49,9 @@ int main(int argc, char *argv[])
          /*
           *wczytanie baz
           */
-         list.readFromFile();
+         DatabasesList::getInstance()->readFromFile();
          cout<<"bazy przed usunieciem emptyDatabase"<<endl;
-         list.exportData(cout);
+         DatabasesList::getInstance()->exportData(cout);
     }
     catch (const std::exception& e) {
         cout << e.what() << "blad odczytu/zapisu z/do pliku";
@@ -72,7 +70,7 @@ int main(int argc, char *argv[])
     DeleteDatabaseObserver * ob =new DeleteDatabaseObserver();
     ob->update("emptyDatabase");
     cout<<"bazy po usunieciu emptyDatabase"<<endl;
-    ob->getDatabasesList()->exportData(cout);
+    DatabasesList::getInstance()->exportData(cout);
 
 
    return a.exec();

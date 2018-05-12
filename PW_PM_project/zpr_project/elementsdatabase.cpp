@@ -77,5 +77,5 @@ void ElementsDatabase::setName(std::string name){
     database_.setName(name);
 }
 unsigned int ElementsDatabase::getElementsNumber(){
-    return elements_.size();
+    return static_cast<unsigned int >(elements_.size());
 }

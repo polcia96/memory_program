@@ -1,16 +1,15 @@
 #include "deletedatabaseobserver.h"
 
 DeleteDatabaseObserver::DeleteDatabaseObserver(){
-    databases_list_=new DatabasesList();
-    databases_list_->readFromFile();
+    //databases_list_=new DatabasesList();
+    DatabasesList::getInstance()->readFromFile();
 }
 DeleteDatabaseObserver::~DeleteDatabaseObserver(){
-    delete databases_list_;
+    //delete databases_list_;
 }
 
 void DeleteDatabaseObserver::update(std::string database_name){
-    databases_list_->eraseDatabase(database_name);
-    databases_list_->writeToFile();
+    DatabasesList::getInstance()->eraseDatabase(database_name);
+    DatabasesList::getInstance()->writeToFile();
 }
 
-DatabasesList* DeleteDatabaseObserver::getDatabasesList(){return databases_list_;}

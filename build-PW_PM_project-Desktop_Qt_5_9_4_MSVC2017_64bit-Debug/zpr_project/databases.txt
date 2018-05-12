@@ -1,7 +1,4 @@
-<database>
-name=firstDatabase
-name_file=firstDatabase.txt
-elements_number=0
+
 <database>
 name=firstDatabase
 name_file=firstDatabase.txt

@@ -26,13 +26,12 @@ void Test::readFromFileTest()
 {
     Database database("emptyDatabase");
     database.setFileName("emptyDatabase.txt");
-    DatabasesList list;
 
     try{
-        list.readFromFile();
+        DatabasesList::getInstance()->readFromFile();
     }
     catch(std::exception e){}
-    Database* data_ptr= list.findDatabase("emptyDatabase");
+    Database* data_ptr= DatabasesList::getInstance()->findDatabase("emptyDatabase");
     Database second_database=*data_ptr;
     QCOMPARE(database.getName(),second_database.getName());
 
@@ -58,15 +57,16 @@ void Test::addElementTest(){
 }
 
 void Test::deleteDatabaseTest(){
-    Database database("firstDatabase");
-    DatabasesList databases_list;
-    databases_list.add(database);
+    Database database("secondDatabase");
 
-    databases_list.eraseDatabase("firstDatabase");
+    unsigned int elements_number=DatabasesList::getInstance()->getDatabasesNumber();
+    try{
+    DatabasesList::getInstance()->add(database);
+    DatabasesList::getInstance()->eraseDatabase("secondDatabase");
+    QCOMPARE(elements_number,DatabasesList::getInstance()->getDatabasesNumber());
 
-    unsigned int elements_number=0;
-
-    QCOMPARE(elements_number,databases_list.getDatabasesNumber());
+    }
+    catch(std::exception e){}
 }
 
 QTEST_APPLESS_MAIN(Test)

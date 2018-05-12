@@ -1,11 +1,21 @@
 #include "databaseslist.h"
 
+DatabasesList* DatabasesList::pInstance_=nullptr;
+
 DatabasesList::DatabasesList(){
-    //do rozwazenia czy ma tu byc czy nie
-   // readFromFile();
+    //readFromFile();
 }
 
-DatabasesList:: ~DatabasesList(){}
+DatabasesList* DatabasesList::getInstance(){
+    if(!pInstance_)
+        pInstance_=new DatabasesList();
+    return pInstance_;
+
+}
+
+DatabasesList:: ~DatabasesList(){
+    delete pInstance_;
+}
 
 void DatabasesList::add(Base*){}
 
@@ -64,10 +74,12 @@ void DatabasesList::eraseDatabase(std::string database_name){
     }
 }
 void DatabasesList::add(Database new_database){
+    if(databases_.find(new_database.getName())==databases_.end())
         databases_.insert(std::make_pair(new_database.getName(),new_database));
+    else throw std::exception("baza danych o podanej nazwie juz istnieje");
     }
 unsigned int DatabasesList::getDatabasesNumber(){
-    return databases_.size();
+    return static_cast <unsigned int >(databases_.size());
 }
 
 
