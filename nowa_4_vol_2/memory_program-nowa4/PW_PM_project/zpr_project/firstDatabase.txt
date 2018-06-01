@@ -1,0 +1,20 @@
+(Element)
+remebering_rate=0
+last_repeat_data=1-5-118
+<word>
+name= kot
+native_word = kot
+foreign_word = cat
+translate = kicia
+[Picture]name = none
+path = none
+(Element)
+remebering_rate=0
+last_repeat_data=1-5-118
+<word>
+name= none
+native_word = none 
+foreign_word = none
+translate = none
+[Picture]name = none
+path = none

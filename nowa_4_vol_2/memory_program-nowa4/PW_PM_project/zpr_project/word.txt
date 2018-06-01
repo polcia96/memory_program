@@ -1,0 +1,151 @@
+
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= 
+native_word = kot
+foreign_word = cat
+translate = 
+<word>
+name= kot
+native_word = kot
+foreign_word = cat
+translate = kicia
+<word>
+name= kot
+native_word = kot
+foreign_word = cat
+translate = kicia
+<word>
+name= kot
+native_word = kot
+foreign_word = cat
+translate = kicia
+<word>
+name= kot
+native_word = kot
+foreign_word = cat
+translate = kicia
+<word>
+name= kot
+native_word = kot
+foreign_word = cat
+translate = kicia
+<word>
+name= kot
+native_word = kot
+foreign_word = cat
+translate = kicia

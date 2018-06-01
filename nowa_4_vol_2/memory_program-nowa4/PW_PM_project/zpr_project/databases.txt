@@ -1,0 +1,8 @@
+<database>
+name=firstDatabase
+name_file=firstDatabase.txt
+elements_number=2
+<database>
+name=emptyDatabase
+name_file=emptyDatabase.txt
+elements_number=0
