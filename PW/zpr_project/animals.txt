@@ -1,0 +1,37 @@
+<database>
+name=animals
+name_file=animals.txt
+elements_number=3
+(Element)
+element_number=0
+remebering_rate=0
+last_repeat_data=5-5-118
+<word>
+name= kot
+native_word = kot
+foreign_word = cat
+translate = kitty
+[Picture]name = none
+path = Katze.jpg
+(Element)
+element_number=1
+remebering_rate=0
+last_repeat_data=5-5-118
+<word>
+name= pies
+native_word = pies
+foreign_word = dog
+translate = doggy
+[Picture]name = none
+path = dog.png
+(Element)
+element_number=2
+remebering_rate=0
+last_repeat_data=5-5-118
+<word>
+name= kaczka
+native_word = kaczka
+foreign_word = duck
+translate = duckling
+[Picture]name = none
+path = duck.png

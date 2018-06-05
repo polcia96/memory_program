@@ -1,0 +1,4 @@
+<database>
+name=emptyDatabase
+name_file=emptyDatabase.txt
+elements_number=0

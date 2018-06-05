@@ -1,0 +1,8 @@
+<database>
+name=animals
+name_file=animals.txt
+elements_number=3
+<database>
+name=emptyDatabase
+name_file=emptyDatabase.txt
+elements_number=0
