@@ -4,7 +4,7 @@
 
 #include "base.h"
 /*!
- * \brief Klasa Word reprezentuje dane słówko, które może być zapisane w dwóch językach oraz posiadac pewien synonim lub opis.
+ * \brief Klasa reprezentuje dane słówko, które może być zapisane w dwóch językach oraz posiadac pewien synonim lub opis.
  * dostarcza funkcji umożliwających modyfikacje słówka oraz jego zapis i odczyt z /do pliku.
  */
 class Word : public Base

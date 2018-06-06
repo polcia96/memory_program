@@ -1,0 +1,27 @@
+var files_dup =
+[
+    [ "adddatabaseobserver.h", "adddatabaseobserver_8h_source.html", null ],
+    [ "adddatabasewindow.h", "adddatabasewindow_8h_source.html", null ],
+    [ "base.h", "base_8h_source.html", null ],
+    [ "choosedatabasewindow.h", "choosedatabasewindow_8h_source.html", null ],
+    [ "database.h", "database_8h_source.html", null ],
+    [ "databaseslist.h", "databaseslist_8h_source.html", null ],
+    [ "datacounter.h", "datacounter_8h_source.html", null ],
+    [ "deletedatabaseobserver.h", "deletedatabaseobserver_8h_source.html", null ],
+    [ "deletedatabasewindow.h", "deletedatabasewindow_8h_source.html", null ],
+    [ "dialog.h", "dialog_8h_source.html", null ],
+    [ "element.h", "element_8h_source.html", null ],
+    [ "elementsdatabase.h", "elementsdatabase_8h_source.html", null ],
+    [ "getdatabasenamewindow.h", "getdatabasenamewindow_8h_source.html", null ],
+    [ "mainwin.h", "mainwin_8h_source.html", null ],
+    [ "menustart.h", "menustart_8h_source.html", null ],
+    [ "picture.h", "picture_8h_source.html", null ],
+    [ "repetition.h", "repetition_8h_source.html", null ],
+    [ "ui_adddatabasewindow.h", "ui__adddatabasewindow_8h_source.html", null ],
+    [ "ui_choosedatabasewindow.h", "ui__choosedatabasewindow_8h_source.html", null ],
+    [ "ui_deletedatabasewindow.h", "ui__deletedatabasewindow_8h_source.html", null ],
+    [ "ui_getdatabasenamewindow.h", "ui__getdatabasenamewindow_8h_source.html", null ],
+    [ "ui_mainwin.h", "ui__mainwin_8h_source.html", null ],
+    [ "ui_menustart.h", "ui__menustart_8h_source.html", null ],
+    [ "word.h", "word_8h_source.html", null ]
+];

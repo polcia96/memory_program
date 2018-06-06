@@ -6,7 +6,7 @@
 #include "databaseslist.h"
 #include <vector>
 /*!
- * \brief  DeleteDatabaseObserver umożliwia usunięcie danej bazy danych, informacje o tym która baza ma zostać usunięta pobiera od użytkownika.
+ * \brief  Umożliwia usunięcie danej bazy danych, informacje o tym która baza ma zostać usunięta pobiera od użytkownika.
  */
 class DeleteDatabaseObserver : public ElementsDatabase
 {

@@ -5,7 +5,7 @@
 #include <vector>
 #include "elementsdatabase.h"
 /*!
- * \brief Klasa Repetition reprezentuje aktualna powtórkę, przechowuje tylko te elementy danej bazy które należy powtórzyć w danym dniu.
+ * \brief Klasa reprezentuje aktualna powtórkę, przechowuje tylko te elementy danej bazy które należy powtórzyć w danym dniu.
  * Umożliwia kolejne wyświetlanie elementów w głownym oknie programu.
  */
 class Repetition

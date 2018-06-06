@@ -1,0 +1,63 @@
+\hypertarget{class_database}{}\section{Database Class Reference}
+\label{class_database}\index{Database@{Database}}
+
+
+Klasa \mbox{\hyperlink{class_database}{Database}} przechowuje informacje i parametry danej bazy danych.  
+
+
+
+
+{\ttfamily \#include $<$database.\+h$>$}
+
+Inheritance diagram for Database\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_database}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_database_ad2ed7fa7af20809f84b7b13cd55ac9ef}\label{class_database_ad2ed7fa7af20809f84b7b13cd55ac9ef}} 
+{\bfseries Database} (std\+::string name=\char`\"{} \char`\"{})
+\item 
+\mbox{\Hypertarget{class_database_aab7af7898890481802ae8c62b745bbe9}\label{class_database_aab7af7898890481802ae8c62b745bbe9}} 
+virtual void {\bfseries import\+Data} (std\+::istream \&in\+\_\+)
+\item 
+\mbox{\Hypertarget{class_database_a79ff4cee1ef72bb7be0077c3553bd1e9}\label{class_database_a79ff4cee1ef72bb7be0077c3553bd1e9}} 
+virtual void {\bfseries export\+Data} (std\+::ostream \&out\+\_\+)
+\item 
+\mbox{\Hypertarget{class_database_a68de399557003ffde43f6556237ee7f2}\label{class_database_a68de399557003ffde43f6556237ee7f2}} 
+virtual void {\bfseries add} (\mbox{\hyperlink{class_base}{Base}} $\ast$)
+\item 
+\mbox{\Hypertarget{class_database_af757aa5b00ad981c6d3d2c9100694b0d}\label{class_database_af757aa5b00ad981c6d3d2c9100694b0d}} 
+std\+::string {\bfseries get\+File\+Name} ()
+\item 
+\mbox{\Hypertarget{class_database_a84fe6d325d05ff32c513fd2763d69e57}\label{class_database_a84fe6d325d05ff32c513fd2763d69e57}} 
+void {\bfseries set\+File\+Name} (std\+::string file\+\_\+name)
+\item 
+\mbox{\Hypertarget{class_database_a60f291231bd1bf8e7bc40a06d44b5d81}\label{class_database_a60f291231bd1bf8e7bc40a06d44b5d81}} 
+void {\bfseries set\+Default\+File\+Name} ()
+\item 
+\mbox{\Hypertarget{class_database_ade24eccecba190ccd540b2bb2527d2d5}\label{class_database_ade24eccecba190ccd540b2bb2527d2d5}} 
+std\+::string {\bfseries get\+Databases\+File\+Name} ()
+\item 
+\mbox{\Hypertarget{class_database_aea49c371662e5a5c80c5af44314fd7e8}\label{class_database_aea49c371662e5a5c80c5af44314fd7e8}} 
+void {\bfseries increase\+Elements\+Number} ()
+\item 
+\mbox{\Hypertarget{class_database_aae945bd22e9b28da21cba4483d7d38ba}\label{class_database_aae945bd22e9b28da21cba4483d7d38ba}} 
+unsigned int {\bfseries get\+Elements\+Number} ()
+\item 
+\mbox{\Hypertarget{class_database_a254f1f7b0721de43ea3e203009741305}\label{class_database_a254f1f7b0721de43ea3e203009741305}} 
+bool {\bfseries delete\+Database} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Klasa \mbox{\hyperlink{class_database}{Database}} przechowuje informacje i parametry danej bazy danych. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+database.\+h\item 
+database.\+cpp\end{DoxyCompactItemize}

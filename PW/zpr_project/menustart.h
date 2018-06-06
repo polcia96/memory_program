@@ -26,7 +26,7 @@ namespace Ui {
 class MenuStart;
 }
 /*!
- * \brief Klasa MenuStart reprezentuje okno startowe, umożliwia użytkowi wybranie konkretnych akcji.
+ * \brief Klasam reprezentuje okno startowe, umożliwia użytkowi wybranie konkretnych akcji.
  */
 class MenuStart : public QDialog
 {

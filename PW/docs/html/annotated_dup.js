@@ -1,0 +1,28 @@
+var annotated_dup =
+[
+    [ "Ui", "namespace_ui.html", "namespace_ui" ],
+    [ "AddDatabaseObserver", "class_add_database_observer.html", "class_add_database_observer" ],
+    [ "AddDatabaseWindow", "class_add_database_window.html", "class_add_database_window" ],
+    [ "Base", "class_base.html", "class_base" ],
+    [ "ChooseDatabaseWindow", "class_choose_database_window.html", "class_choose_database_window" ],
+    [ "Database", "class_database.html", "class_database" ],
+    [ "DatabasesList", "class_databases_list.html", "class_databases_list" ],
+    [ "DataCounter", "class_data_counter.html", "class_data_counter" ],
+    [ "DeleteDatabaseObserver", "class_delete_database_observer.html", "class_delete_database_observer" ],
+    [ "DeleteDatabaseWindow", "class_delete_database_window.html", "class_delete_database_window" ],
+    [ "Dialog", "class_dialog.html", "class_dialog" ],
+    [ "Element", "class_element.html", "class_element" ],
+    [ "ElementsDatabase", "class_elements_database.html", "class_elements_database" ],
+    [ "GetDatabaseNameWindow", "class_get_database_name_window.html", "class_get_database_name_window" ],
+    [ "MainWin", "class_main_win.html", "class_main_win" ],
+    [ "MenuStart", "class_menu_start.html", "class_menu_start" ],
+    [ "Picture", "class_picture.html", "class_picture" ],
+    [ "Repetition", "class_repetition.html", "class_repetition" ],
+    [ "Ui_AddDatabaseWindow", "class_ui___add_database_window.html", "class_ui___add_database_window" ],
+    [ "Ui_ChooseDatabaseWindow", "class_ui___choose_database_window.html", "class_ui___choose_database_window" ],
+    [ "Ui_DeleteDatabaseWindow", "class_ui___delete_database_window.html", "class_ui___delete_database_window" ],
+    [ "Ui_GetDatabaseNameWindow", "class_ui___get_database_name_window.html", "class_ui___get_database_name_window" ],
+    [ "Ui_MainWin", "class_ui___main_win.html", "class_ui___main_win" ],
+    [ "Ui_MenuStart", "class_ui___menu_start.html", "class_ui___menu_start" ],
+    [ "Word", "class_word.html", "class_word" ]
+];

@@ -11,7 +11,7 @@ MAKEFILE      = Makefile.Release
 
 CC            = cl
 CXX           = cl
-DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_DEPRECATED_WARNINGS -DSRCDIR=\"C:/Users/Paulina/Desktop/Projekt wersja ostateczna/Paulina_Wieczorek/Tests/\" -DQT_QML_DEBUG -DQT_NO_DEBUG -DQT_TESTLIB_LIB -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR="\"C:/Users/Paulina/Desktop/Projekt wersja ostateczna/Paulina_Wieczorek/Tests\"" -DNDEBUG
+DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_DEPRECATED_WARNINGS -DSRCDIR=\"C:/Users/Paulina/Desktop/wersja_ostateczna/PW/Tests/\" -DQT_QML_DEBUG -DQT_NO_DEBUG -DQT_TESTLIB_LIB -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR="\"C:/Users/Paulina/Desktop/wersja_ostateczna/PW/Tests\"" -DNDEBUG
 CFLAGS        = -nologo -Zc:wchar_t -FS -Zc:strictStrings -O2 -MD -W3 -w44456 -w44457 -w44458 $(DEFINES)
 CXXFLAGS      = -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -O2 -MD -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -EHsc $(DEFINES)
 INCPATH       = -I. -I..\zpr_project -IC:\Qt\Qt5.9.4\5.9.4\msvc2017_64\include -IC:\Qt\Qt5.9.4\5.9.4\msvc2017_64\include\QtTest -IC:\Qt\Qt5.9.4\5.9.4\msvc2017_64\include\QtCore -Irelease -IC:\Qt\Qt5.9.4\5.9.4\msvc2017_64\mkspecs\win32-msvc 
@@ -474,7 +474,7 @@ release\test.moc: C:\Qt\Qt5.9.4\5.9.4\msvc2017_64\include\QtCore\QString \
 		test.cpp \
 		release\moc_predefs.h \
 		C:\Qt\Qt5.9.4\5.9.4\msvc2017_64\bin\moc.exe
-	C:\Qt\Qt5.9.4\5.9.4\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include release/moc_predefs.h -IC:/Qt/Qt5.9.4/5.9.4/msvc2017_64/mkspecs/win32-msvc -I"C:/Users/Paulina/Desktop/Projekt wersja ostateczna/Paulina_Wieczorek/Tests" -I"C:/Users/Paulina/Desktop/Projekt wersja ostateczna/Paulina_Wieczorek/zpr_project" -IC:/Qt/Qt5.9.4/5.9.4/msvc2017_64/include -IC:/Qt/Qt5.9.4/5.9.4/msvc2017_64/include/QtTest -IC:/Qt/Qt5.9.4/5.9.4/msvc2017_64/include/QtCore -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt" test.cpp -o release\test.moc
+	C:\Qt\Qt5.9.4\5.9.4\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include release/moc_predefs.h -IC:/Qt/Qt5.9.4/5.9.4/msvc2017_64/mkspecs/win32-msvc -IC:/Users/Paulina/Desktop/wersja_ostateczna/PW/Tests -IC:/Users/Paulina/Desktop/wersja_ostateczna/PW/zpr_project -IC:/Qt/Qt5.9.4/5.9.4/msvc2017_64/include -IC:/Qt/Qt5.9.4/5.9.4/msvc2017_64/include/QtTest -IC:/Qt/Qt5.9.4/5.9.4/msvc2017_64/include/QtCore -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt" test.cpp -o release\test.moc
 
 compiler_yacc_decl_make_all:
 compiler_yacc_decl_clean:

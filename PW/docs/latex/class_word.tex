@@ -1,0 +1,60 @@
+\hypertarget{class_word}{}\section{Word Class Reference}
+\label{class_word}\index{Word@{Word}}
+
+
+Klasa reprezentuje dane słówko, które może być zapisane w dwóch językach oraz posiadac pewien synonim lub opis. dostarcza funkcji umożliwających modyfikacje słówka oraz jego zapis i odczyt z /do pliku.  
+
+
+
+
+{\ttfamily \#include $<$word.\+h$>$}
+
+Inheritance diagram for Word\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_word}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_word_aa7eab6629fdbc794f379ff7d1746979e}\label{class_word_aa7eab6629fdbc794f379ff7d1746979e}} 
+{\bfseries Word} (std\+::string native, std\+::string foreign, std\+::string translate)
+\item 
+\mbox{\Hypertarget{class_word_a1e082803fada1b99cce469604fa5e4b4}\label{class_word_a1e082803fada1b99cce469604fa5e4b4}} 
+virtual void {\bfseries import\+Data} (std\+::istream \&in\+\_\+)
+\item 
+\mbox{\Hypertarget{class_word_ae70c9ade266f84482e7bb1aeaafccb3b}\label{class_word_ae70c9ade266f84482e7bb1aeaafccb3b}} 
+virtual void {\bfseries export\+Data} (std\+::ostream \&out\+\_\+)
+\item 
+\mbox{\Hypertarget{class_word_a89e6bd6b32eee3266752bdea037c7c2f}\label{class_word_a89e6bd6b32eee3266752bdea037c7c2f}} 
+virtual std\+::string {\bfseries get\+Foreign\+Word} ()
+\item 
+\mbox{\Hypertarget{class_word_a8ec142e06e4a361a898bb13aef837e6d}\label{class_word_a8ec142e06e4a361a898bb13aef837e6d}} 
+virtual void {\bfseries set\+Foreign\+Word} (std\+::string word)
+\item 
+\mbox{\Hypertarget{class_word_ad5b593288cc4b6db9e905751308a396b}\label{class_word_ad5b593288cc4b6db9e905751308a396b}} 
+virtual std\+::string {\bfseries get\+Native\+Word} ()
+\item 
+\mbox{\Hypertarget{class_word_a35bf10ad12dbe48a30a6a8b2f96b2dc5}\label{class_word_a35bf10ad12dbe48a30a6a8b2f96b2dc5}} 
+virtual void {\bfseries set\+Native\+Word} (std\+::string word)
+\item 
+\mbox{\Hypertarget{class_word_a167500076ba8a742ae6cad5dc1507361}\label{class_word_a167500076ba8a742ae6cad5dc1507361}} 
+virtual std\+::string {\bfseries get\+Translation} ()
+\item 
+\mbox{\Hypertarget{class_word_ad583dd58318ebc7be4d5e02bcf173191}\label{class_word_ad583dd58318ebc7be4d5e02bcf173191}} 
+virtual void {\bfseries set\+Translation} (std\+::string word)
+\item 
+\mbox{\Hypertarget{class_word_a182a4223aab6094d670166a8e3fdd8c0}\label{class_word_a182a4223aab6094d670166a8e3fdd8c0}} 
+virtual void {\bfseries add} (\mbox{\hyperlink{class_base}{Base}} $\ast$)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Klasa reprezentuje dane słówko, które może być zapisane w dwóch językach oraz posiadac pewien synonim lub opis. dostarcza funkcji umożliwających modyfikacje słówka oraz jego zapis i odczyt z /do pliku. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+word.\+h\item 
+word.\+cpp\end{DoxyCompactItemize}

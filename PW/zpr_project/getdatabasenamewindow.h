@@ -12,7 +12,7 @@ namespace Ui {
 class GetDatabaseNameWindow;
 }
 /*!
- * \brief Klasa GetDatabaseNameWindow umożliwia użytkownikowi wpisanie nazwy nowododawanej bazy danych
+ * \brief Klasa umożliwia użytkownikowi wpisanie nazwy nowododawanej bazy danych
  */
 class GetDatabaseNameWindow : public QDialog
 {

@@ -15,7 +15,7 @@ namespace Ui {
 class ChooseDatabaseWindow;
 }
 /*!
- * \brief The ChooseDatabaseWindow okno umożliwiające użytkownikowi wybór bazy danych do powtórki
+ * \brief okno umożliwiające użytkownikowi wybór bazy danych do powtórki
  */
 class ChooseDatabaseWindow : public QWidget
 {

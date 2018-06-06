@@ -10,7 +10,7 @@
 #include "databaseslist.h"
 
 /*!
- * \brief Klasa ElementsDatabase reprezentuje daną bazę danych. Przechowuje informacje o bazie oraz jej elementy
+ * \brief Klasa reprezentuje daną bazę danych. Przechowuje informacje o bazie oraz jej elementy
  */
 class ElementsDatabase
 {

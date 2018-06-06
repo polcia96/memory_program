@@ -1,0 +1,53 @@
+\hypertarget{class_base}{}\section{Base Class Reference}
+\label{class_base}\index{Base@{Base}}
+
+
+Klasa bazowa dla klas, które dokonują operacji na plikach, dostarcza podstawe funkcje umożliwiające czytanie danych z pliku czy zapis danych.  
+
+
+
+
+{\ttfamily \#include $<$base.\+h$>$}
+
+Inheritance diagram for Base\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_base}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_base_a7b4b21d52b3d3247744e0ee1e4f63586}\label{class_base_a7b4b21d52b3d3247744e0ee1e4f63586}} 
+virtual void {\bfseries import\+Data} (std\+::istream \&in\+\_\+)=0
+\item 
+\mbox{\Hypertarget{class_base_a88840038845318752f245aeec2ea4a68}\label{class_base_a88840038845318752f245aeec2ea4a68}} 
+virtual void {\bfseries export\+Data} (std\+::ostream \&out\+\_\+)=0
+\item 
+\mbox{\Hypertarget{class_base_ac414e12b727e044fd3a56ca6d8c1d4e6}\label{class_base_ac414e12b727e044fd3a56ca6d8c1d4e6}} 
+virtual void {\bfseries read\+From\+File} (std\+::string file\+\_\+name)
+\item 
+\mbox{\Hypertarget{class_base_ae878e796ec7e77f33ebee2048f961551}\label{class_base_ae878e796ec7e77f33ebee2048f961551}} 
+virtual void {\bfseries write\+To\+File} (std\+::string file\+\_\+name)
+\item 
+\mbox{\Hypertarget{class_base_a4d31c87adaa91feaecf96d09825caacc}\label{class_base_a4d31c87adaa91feaecf96d09825caacc}} 
+virtual void {\bfseries set\+Name} (std\+::string name)
+\item 
+\mbox{\Hypertarget{class_base_abc24d7d976d415e2facc4e2d2cc0730d}\label{class_base_abc24d7d976d415e2facc4e2d2cc0730d}} 
+virtual std\+::string {\bfseries get\+Name} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_base_ace990b7abe15279f1bcf958f3a1f0d6b}\label{class_base_ace990b7abe15279f1bcf958f3a1f0d6b}} 
+std\+::string {\bfseries name\+\_\+} =\char`\"{}none\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa bazowa dla klas, które dokonują operacji na plikach, dostarcza podstawe funkcje umożliwiające czytanie danych z pliku czy zapis danych. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+base.\+h\item 
+base.\+cpp\end{DoxyCompactItemize}

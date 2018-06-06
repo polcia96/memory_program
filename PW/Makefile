@@ -32,118 +32,118 @@ SUBTARGETS    =  \
 
 sub-zpr_project-qmake_all:  FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
-	cd zpr_project\ && $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug"
+	cd zpr_project\ && $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug"
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd zpr_project\ && $(MAKE) -f Makefile qmake_all
 sub-zpr_project: FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile
 sub-zpr_project-make_first-ordered: FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile 
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile 
 sub-zpr_project-make_first: FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile 
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile 
 sub-zpr_project-all-ordered: FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile all
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile all
 sub-zpr_project-all: FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile all
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile all
 sub-zpr_project-clean-ordered: FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile clean
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile clean
 sub-zpr_project-clean: FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile clean
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile clean
 sub-zpr_project-distclean-ordered: FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile distclean
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile distclean
 sub-zpr_project-distclean: FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile distclean
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile distclean
 sub-zpr_project-install_subtargets-ordered: FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile install
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile install
 sub-zpr_project-install_subtargets: FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile install
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile install
 sub-zpr_project-uninstall_subtargets-ordered: FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile uninstall
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile uninstall
 sub-zpr_project-uninstall_subtargets: FORCE
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile uninstall
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile uninstall
 sub-Tests-qmake_all: sub-zpr_project-qmake_all FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
-	cd Tests\ && $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug"
+	cd Tests\ && $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug"
 	@set MAKEFLAGS=$(MAKEFLAGS)
 	cd Tests\ && $(MAKE) -f Makefile qmake_all
 sub-Tests: FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile
 sub-Tests-make_first-ordered: sub-zpr_project-make_first-ordered  FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile 
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile 
 sub-Tests-make_first: FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile 
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile 
 sub-Tests-all-ordered: sub-zpr_project-all-ordered  FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile all
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile all
 sub-Tests-all: FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile all
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile all
 sub-Tests-clean-ordered: sub-zpr_project-clean-ordered  FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile clean
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile clean
 sub-Tests-clean: FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile clean
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile clean
 sub-Tests-distclean-ordered: sub-zpr_project-distclean-ordered  FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile distclean
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile distclean
 sub-Tests-distclean: FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile distclean
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile distclean
 sub-Tests-install_subtargets-ordered: sub-zpr_project-install_subtargets-ordered  FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile install
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile install
 sub-Tests-install_subtargets: FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile install
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile install
 sub-Tests-uninstall_subtargets-ordered: sub-zpr_project-uninstall_subtargets-ordered  FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile uninstall
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile uninstall
 sub-Tests-uninstall_subtargets: FORCE
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile uninstall
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile uninstall
 
 Makefile: PW_project.pro C:\Qt\Qt5.9.4\5.9.4\msvc2017_64\mkspecs\win32-msvc\qmake.conf C:\Qt\Qt5.9.4\5.9.4\msvc2017_64\mkspecs\features\spec_pre.prf \
 		C:\Qt\Qt5.9.4\5.9.4\msvc2017_64\mkspecs\common\angle.conf \
@@ -463,41 +463,41 @@ uninstall_subtargets: sub-zpr_project-uninstall_subtargets-ordered sub-Tests-uni
 sub-zpr_project-debug_ordered:
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile debug
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile debug
 sub-Tests-debug_ordered: sub-zpr_project-debug_ordered 
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile debug
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile debug
 debug: sub-zpr_project-debug_ordered sub-Tests-debug_ordered
 
 sub-zpr_project-release_ordered:
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile release
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile release
 sub-Tests-release_ordered: sub-zpr_project-release_ordered 
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile release
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile release
 release: sub-zpr_project-release_ordered sub-Tests-release_ordered
 
 sub-zpr_project-check_ordered:
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile check
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile check
 sub-Tests-check_ordered: sub-zpr_project-check_ordered 
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile check
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile check
 check: sub-zpr_project-check_ordered sub-Tests-check_ordered
 
 sub-zpr_project-benchmark_ordered:
 	@if not exist zpr_project\ mkdir zpr_project\ & if not exist zpr_project\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\zpr_project\zpr_project.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile benchmark
+	cd zpr_project\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\zpr_project\zpr_project.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile benchmark
 sub-Tests-benchmark_ordered: sub-zpr_project-benchmark_ordered 
 	@if not exist Tests\ mkdir Tests\ & if not exist Tests\ exit 1
 	@set MAKEFLAGS=$(MAKEFLAGS)
-	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile "C:\Users\Paulina\Desktop\Projekt wersja ostateczna\Paulina_Wieczorek\Tests\Tests.pro" -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile benchmark
+	cd Tests\ && ( if not exist Makefile $(QMAKE) -o Makefile C:\Users\Paulina\Desktop\wersja_ostateczna\PW\Tests\Tests.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug" ) && $(MAKE) -f Makefile benchmark
 benchmark: sub-zpr_project-benchmark_ordered sub-Tests-benchmark_ordered
 install:install_subtargets  FORCE
 

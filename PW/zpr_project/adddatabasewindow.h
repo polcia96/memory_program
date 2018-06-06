@@ -7,13 +7,18 @@
 #include "menustart.h"
 
 
-
+/*!
+ * \brief interfejs graficzny
+ */
 namespace Ui {
+/*!
+ * \brief AddDatabaseWindow okno które umożliwia użytkownikowi dodanie nowej bazy danych
+ */
 class AddDatabaseWindow;
 }
 
 /*!
- * \brief The AddDatabaseWindow okno które umożliwia użytkownikowi dodanie nowej bazy danych
+ * \brief AddDatabaseWindow okno które umożliwia użytkownikowi dodanie nowej bazy danych
  */
 class AddDatabaseWindow : public QWidget
 {

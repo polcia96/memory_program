@@ -6,7 +6,7 @@
  * w przypadku zmiany stanu dodaje nowy element do danej bazy danej
  */
 /*!
- * \brief The AddDatabaseObserver w przypadku zmiany stanu dodaje nowy element do danej bazy danych
+ * \brief Obserwator, w przypadku zmiany stanu dodaje nowy element do danej bazy danych
  */
 class AddDatabaseObserver : public ElementsDatabase
 {

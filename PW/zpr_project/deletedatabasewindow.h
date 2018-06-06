@@ -12,7 +12,7 @@ namespace Ui {
 class DeleteDatabaseWindow;
 }
 /*!
- * \brief Klasa DeleteDatabaseWindow reprezentuje okno, które umożliwia użykowinikowi wybór bazy danych do usunięcia.
+ * \brief Klasa reprezentująca okno, które umożliwia użykowinikowi wybór bazy danych do usunięcia.
  * informajca o tym, która baza danych ma być usunięta jest przekazywana do odpowiedniego obserwatora.
  */
 class DeleteDatabaseWindow : public QDialog

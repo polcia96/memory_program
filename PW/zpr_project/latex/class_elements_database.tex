@@ -1,0 +1,101 @@
+\hypertarget{class_elements_database}{}\section{Elements\+Database Class Reference}
+\label{class_elements_database}\index{Elements\+Database@{Elements\+Database}}
+
+
+Klasa \mbox{\hyperlink{class_elements_database}{Elements\+Database}} reprezentuje daną bazę danych. Przechowuje informacje o bazie oraz jej elementy.  
+
+
+
+
+{\ttfamily \#include $<$elementsdatabase.\+h$>$}
+
+Inheritance diagram for Elements\+Database\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_elements_database}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_elements_database_ae370a45ab1134db34ff1a66263d8297b}\label{class_elements_database_ae370a45ab1134db34ff1a66263d8297b}} 
+{\bfseries Elements\+Database} (std\+::string database\+\_\+name)
+\item 
+\mbox{\Hypertarget{class_elements_database_a881af95023218e1382edc0577ec5ef23}\label{class_elements_database_a881af95023218e1382edc0577ec5ef23}} 
+virtual void {\bfseries import\+Data} (std\+::istream \&in\+\_\+)
+\item 
+\mbox{\Hypertarget{class_elements_database_a0aec9b8628c2402a4d78d4be5b3ef6f2}\label{class_elements_database_a0aec9b8628c2402a4d78d4be5b3ef6f2}} 
+virtual void {\bfseries export\+Data} (std\+::ostream \&out\+\_\+)
+\item 
+\mbox{\Hypertarget{class_elements_database_a55558c7804a272361f152dc2e0b3a4c8}\label{class_elements_database_a55558c7804a272361f152dc2e0b3a4c8}} 
+virtual void {\bfseries read\+From\+File} ()
+\item 
+\mbox{\Hypertarget{class_elements_database_a3db3ee74d96dfd50c186588ff578e308}\label{class_elements_database_a3db3ee74d96dfd50c186588ff578e308}} 
+virtual void {\bfseries write\+To\+File} ()
+\item 
+\mbox{\Hypertarget{class_elements_database_a642d59a3e44b0d183523e313065309d4}\label{class_elements_database_a642d59a3e44b0d183523e313065309d4}} 
+virtual void {\bfseries read\+Database} ()
+\item 
+\mbox{\Hypertarget{class_elements_database_a2c18f21690c1b45b37ae825d545a5e36}\label{class_elements_database_a2c18f21690c1b45b37ae825d545a5e36}} 
+virtual void {\bfseries write\+Database} ()
+\item 
+\mbox{\Hypertarget{class_elements_database_ae2c31aa4cb49c37462814fed64aec560}\label{class_elements_database_ae2c31aa4cb49c37462814fed64aec560}} 
+virtual void {\bfseries set\+File\+Name} (std\+::string file\+\_\+name)
+\item 
+\mbox{\Hypertarget{class_elements_database_a8710cd2dad7a2c3c97509daee656f5c6}\label{class_elements_database_a8710cd2dad7a2c3c97509daee656f5c6}} 
+virtual void {\bfseries set\+Name} (std\+::string name)
+\item 
+\mbox{\Hypertarget{class_elements_database_ad2ff356da8d6148ad30b828f91a61605}\label{class_elements_database_ad2ff356da8d6148ad30b828f91a61605}} 
+virtual void {\bfseries set\+Default\+File\+Name} ()
+\item 
+\mbox{\Hypertarget{class_elements_database_a9d070e57b36bd6b95de4fedca69e65de}\label{class_elements_database_a9d070e57b36bd6b95de4fedca69e65de}} 
+virtual void {\bfseries swap\+Element} (unsigned int index, \mbox{\hyperlink{class_element}{Element}} new\+\_\+element)
+\item 
+\mbox{\Hypertarget{class_elements_database_a8bcf9ebeb58a89edb19b4c50fbd8ac3b}\label{class_elements_database_a8bcf9ebeb58a89edb19b4c50fbd8ac3b}} 
+virtual void {\bfseries add} (\mbox{\hyperlink{class_element}{Element}} new\+\_\+element)
+\item 
+\mbox{\Hypertarget{class_elements_database_a28cf4791a1fc0f646b6e3d1d2ccf8c2a}\label{class_elements_database_a28cf4791a1fc0f646b6e3d1d2ccf8c2a}} 
+virtual void {\bfseries add} (\mbox{\hyperlink{class_word}{Word}} new\+\_\+element)
+\item 
+\mbox{\Hypertarget{class_elements_database_acf20ca4257fd66261f2e786a6de10fd9}\label{class_elements_database_acf20ca4257fd66261f2e786a6de10fd9}} 
+virtual void {\bfseries add} (\mbox{\hyperlink{class_picture}{Picture}} new\+\_\+element)
+\item 
+\mbox{\Hypertarget{class_elements_database_a37ffe633a79cf0aa5a30e70fba6945d5}\label{class_elements_database_a37ffe633a79cf0aa5a30e70fba6945d5}} 
+virtual std\+::string {\bfseries get\+Default\+File\+Name} ()
+\item 
+\mbox{\Hypertarget{class_elements_database_ad8f7416174860a5512c6c648d75f65e1}\label{class_elements_database_ad8f7416174860a5512c6c648d75f65e1}} 
+void {\bfseries set\+Database} (\mbox{\hyperlink{class_database}{Database}} database)
+\item 
+\mbox{\Hypertarget{class_elements_database_aef7a58c83877e3eadb67993421c08759}\label{class_elements_database_aef7a58c83877e3eadb67993421c08759}} 
+std\+::string {\bfseries get\+Name} ()
+\item 
+\mbox{\Hypertarget{class_elements_database_a20e9f2279cd9dad94452b011b3a95193}\label{class_elements_database_a20e9f2279cd9dad94452b011b3a95193}} 
+std\+::vector$<$ \mbox{\hyperlink{class_element}{Element}} $>$ {\bfseries get\+Elements\+To\+Repeat} ()
+\item 
+\mbox{\Hypertarget{class_elements_database_aa1580aca3adde71f44987e71b262e031}\label{class_elements_database_aa1580aca3adde71f44987e71b262e031}} 
+unsigned int {\bfseries get\+Elements\+To\+Repeat\+Number} ()
+\item 
+\mbox{\Hypertarget{class_elements_database_abaddac9b4d310335ea2b0736eed31471}\label{class_elements_database_abaddac9b4d310335ea2b0736eed31471}} 
+unsigned int {\bfseries get\+Elements\+Number} ()
+\item 
+\mbox{\Hypertarget{class_elements_database_a911115f8c466c6b4992d6df83182cbb2}\label{class_elements_database_a911115f8c466c6b4992d6df83182cbb2}} 
+void {\bfseries swap\+Database\+In\+File} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_elements_database_ab90a3763844239b40a3e6bceafe5651b}\label{class_elements_database_ab90a3763844239b40a3e6bceafe5651b}} 
+std\+::vector$<$ \mbox{\hyperlink{class_element}{Element}} $>$ {\bfseries elements\+\_\+}
+\item 
+\mbox{\Hypertarget{class_elements_database_ad0177aeef6289d365c12a8bbcdfeea37}\label{class_elements_database_ad0177aeef6289d365c12a8bbcdfeea37}} 
+\mbox{\hyperlink{class_database}{Database}} {\bfseries database\+\_\+}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa \mbox{\hyperlink{class_elements_database}{Elements\+Database}} reprezentuje daną bazę danych. Przechowuje informacje o bazie oraz jej elementy. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+elementsdatabase.\+h\item 
+elementsdatabase.\+cpp\end{DoxyCompactItemize}

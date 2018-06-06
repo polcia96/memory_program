@@ -3,7 +3,7 @@
 
 #include <ctime>
 /*!
- * \brief Klasa DataCounter pobiera aktualną datę oraz oblicza różnice pomiędzy tą daną a datą ostatniej powtórki danego elementu.
+ * \brief Klasa pobiera aktualną datę oraz oblicza różnice pomiędzy tą daną a datą ostatniej powtórki danego elementu.
  * Dzięki temu umożliwia określenie czy dany element powinnien znajdować się w liście do powtórzenia na dziś,czy nie.
  */
 class DataCounter

@@ -12,7 +12,7 @@
 #include<fstream>
 #include<exception>
 /*!
- * \brief Base jest klasą bazową dla klas, które dokonują operacji na plikach,
+ * \brief Klasa bazowa dla klas, które dokonują operacji na plikach,
  * dostarcza podstawe funkcje umożliwiające czytanie danych z pliku czy zapis danych.
  */
 class Base

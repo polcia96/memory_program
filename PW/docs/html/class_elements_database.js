@@ -1,0 +1,28 @@
+var class_elements_database =
+[
+    [ "ElementsDatabase", "class_elements_database.html#ad66646538e0af44cf464b81485698d81", null ],
+    [ "ElementsDatabase", "class_elements_database.html#ae370a45ab1134db34ff1a66263d8297b", null ],
+    [ "~ElementsDatabase", "class_elements_database.html#a11411fc40bee2fabc85fef4bd3449946", null ],
+    [ "add", "class_elements_database.html#a8bcf9ebeb58a89edb19b4c50fbd8ac3b", null ],
+    [ "add", "class_elements_database.html#a28cf4791a1fc0f646b6e3d1d2ccf8c2a", null ],
+    [ "add", "class_elements_database.html#acf20ca4257fd66261f2e786a6de10fd9", null ],
+    [ "exportData", "class_elements_database.html#a0aec9b8628c2402a4d78d4be5b3ef6f2", null ],
+    [ "getDefaultFileName", "class_elements_database.html#a37ffe633a79cf0aa5a30e70fba6945d5", null ],
+    [ "getElementsNumber", "class_elements_database.html#abaddac9b4d310335ea2b0736eed31471", null ],
+    [ "getElementsToRepeat", "class_elements_database.html#a20e9f2279cd9dad94452b011b3a95193", null ],
+    [ "getElementsToRepeatNumber", "class_elements_database.html#aa1580aca3adde71f44987e71b262e031", null ],
+    [ "getName", "class_elements_database.html#aef7a58c83877e3eadb67993421c08759", null ],
+    [ "importData", "class_elements_database.html#a881af95023218e1382edc0577ec5ef23", null ],
+    [ "readDatabase", "class_elements_database.html#a642d59a3e44b0d183523e313065309d4", null ],
+    [ "readFromFile", "class_elements_database.html#a55558c7804a272361f152dc2e0b3a4c8", null ],
+    [ "setDatabase", "class_elements_database.html#ad8f7416174860a5512c6c648d75f65e1", null ],
+    [ "setDefaultFileName", "class_elements_database.html#ad2ff356da8d6148ad30b828f91a61605", null ],
+    [ "setFileName", "class_elements_database.html#ae2c31aa4cb49c37462814fed64aec560", null ],
+    [ "setName", "class_elements_database.html#a8710cd2dad7a2c3c97509daee656f5c6", null ],
+    [ "swapDatabaseInFile", "class_elements_database.html#a911115f8c466c6b4992d6df83182cbb2", null ],
+    [ "swapElement", "class_elements_database.html#a9d070e57b36bd6b95de4fedca69e65de", null ],
+    [ "writeDatabase", "class_elements_database.html#a2c18f21690c1b45b37ae825d545a5e36", null ],
+    [ "writeToFile", "class_elements_database.html#a3db3ee74d96dfd50c186588ff578e308", null ],
+    [ "database_", "class_elements_database.html#ad0177aeef6289d365c12a8bbcdfeea37", null ],
+    [ "elements_", "class_elements_database.html#ab90a3763844239b40a3e6bceafe5651b", null ]
+];

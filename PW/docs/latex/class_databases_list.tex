@@ -1,0 +1,66 @@
+\hypertarget{class_databases_list}{}\section{Databases\+List Class Reference}
+\label{class_databases_list}\index{Databases\+List@{Databases\+List}}
+
+
+Klasa przechowująca liste dostępnych baz danych.  
+
+
+
+
+{\ttfamily \#include $<$databaseslist.\+h$>$}
+
+Inheritance diagram for Databases\+List\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_databases_list}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_databases_list_abd187b9e0cf5551d63bcd76d97cd792e}\label{class_databases_list_abd187b9e0cf5551d63bcd76d97cd792e}} 
+virtual void {\bfseries import\+Data} (std\+::istream \&in\+\_\+)
+\item 
+\mbox{\Hypertarget{class_databases_list_a0dc8aa3a016c4f466a3625f897d4b79a}\label{class_databases_list_a0dc8aa3a016c4f466a3625f897d4b79a}} 
+virtual void {\bfseries export\+Data} (std\+::ostream \&out\+\_\+)
+\item 
+\mbox{\Hypertarget{class_databases_list_ada9be7bc8acb9bfe0ca59b3dc515afa7}\label{class_databases_list_ada9be7bc8acb9bfe0ca59b3dc515afa7}} 
+virtual void {\bfseries read\+From\+File} ()
+\item 
+\mbox{\Hypertarget{class_databases_list_a2e64d5ee70b19c3056a63823c0191070}\label{class_databases_list_a2e64d5ee70b19c3056a63823c0191070}} 
+virtual void {\bfseries write\+To\+File} ()
+\item 
+\mbox{\Hypertarget{class_databases_list_a36e4a59130a119f44e3ae18870d1a691}\label{class_databases_list_a36e4a59130a119f44e3ae18870d1a691}} 
+virtual void {\bfseries add} (\mbox{\hyperlink{class_base}{Base}} $\ast$)
+\item 
+\mbox{\Hypertarget{class_databases_list_a97a1a3e49fb1644ab07999dc332a0efa}\label{class_databases_list_a97a1a3e49fb1644ab07999dc332a0efa}} 
+virtual void {\bfseries add} (\mbox{\hyperlink{class_database}{Database}} new\+\_\+database)
+\item 
+\mbox{\Hypertarget{class_databases_list_a86f5b675c610750ba64ae1f494df687f}\label{class_databases_list_a86f5b675c610750ba64ae1f494df687f}} 
+virtual unsigned int {\bfseries get\+Databases\+Number} ()
+\item 
+\mbox{\Hypertarget{class_databases_list_a054378c1becba066855c2daee11fbec7}\label{class_databases_list_a054378c1becba066855c2daee11fbec7}} 
+std\+::vector$<$ std\+::string $>$ {\bfseries get\+Databases\+Names} ()
+\item 
+\mbox{\Hypertarget{class_databases_list_afcbaa3e3e622bd99276dfce327469e07}\label{class_databases_list_afcbaa3e3e622bd99276dfce327469e07}} 
+\mbox{\hyperlink{class_database}{Database}} $\ast$ {\bfseries find\+Database} (std\+::string database\+\_\+name)
+\item 
+\mbox{\Hypertarget{class_databases_list_a48895e73772682d7a18ca170ff520068}\label{class_databases_list_a48895e73772682d7a18ca170ff520068}} 
+void {\bfseries erase\+Database} (std\+::string database\+\_\+name)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_databases_list_a2e1bc9475b1b28106fe2d0b32fb0db1a}\label{class_databases_list_a2e1bc9475b1b28106fe2d0b32fb0db1a}} 
+static \mbox{\hyperlink{class_databases_list}{Databases\+List}} $\ast$ {\bfseries get\+Instance} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Klasa przechowująca liste dostępnych baz danych. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+databaseslist.\+h\item 
+databaseslist.\+cpp\end{DoxyCompactItemize}

@@ -5,7 +5,7 @@
 #include "base.h"
 
 /*!
- * \brief Klasa Picture przechowuje informacje o obrazku dołączonym do danego elementu
+ * \brief Klasa przechowuje informacje o obrazku dołączonym do danego elementu
  */
 class Picture : public Base
 {

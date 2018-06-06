@@ -1,0 +1,78 @@
+\hypertarget{class_element}{}\section{Element Class Reference}
+\label{class_element}\index{Element@{Element}}
+
+
+Klasa reprezentująca pojedyńczy element z danej bazy, dostarcza funkcje umożliwiające zarządzanie danym elementem, w tym m.\+in zmianę jego stanu, zwiększenie lub zmniejszenie współczynnika zapamiętania itp.  
+
+
+
+
+{\ttfamily \#include $<$element.\+h$>$}
+
+Inheritance diagram for Element\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_element}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_element_a1c5fd3029cf609e698695b10d3ba9c12}\label{class_element_a1c5fd3029cf609e698695b10d3ba9c12}} 
+virtual void {\bfseries import\+Data} (std\+::istream \&in\+\_\+)
+\item 
+\mbox{\Hypertarget{class_element_aff9d7b31a7aaadafd99d9b3aa1ba1c59}\label{class_element_aff9d7b31a7aaadafd99d9b3aa1ba1c59}} 
+virtual void {\bfseries export\+Data} (std\+::ostream \&out\+\_\+)
+\item 
+\mbox{\Hypertarget{class_element_acb6b4d4a1c3d5b294a1b63ff657d8c4e}\label{class_element_acb6b4d4a1c3d5b294a1b63ff657d8c4e}} 
+virtual void {\bfseries add} (\mbox{\hyperlink{class_word}{Word}} word)
+\item 
+\mbox{\Hypertarget{class_element_a3b2abcbd0a44be55bff0e1d98bbc3f82}\label{class_element_a3b2abcbd0a44be55bff0e1d98bbc3f82}} 
+virtual void {\bfseries add} (\mbox{\hyperlink{class_picture}{Picture}} picture)
+\item 
+\mbox{\Hypertarget{class_element_a992c2fbf75165fcc41e448d73504252d}\label{class_element_a992c2fbf75165fcc41e448d73504252d}} 
+virtual void {\bfseries set\+Word} (\mbox{\hyperlink{class_word}{Word}} word)
+\item 
+\mbox{\Hypertarget{class_element_a4cf241aebdf462dda8aad30a4cc6b4d1}\label{class_element_a4cf241aebdf462dda8aad30a4cc6b4d1}} 
+virtual void {\bfseries set\+Picture} (\mbox{\hyperlink{class_picture}{Picture}} word)
+\item 
+\mbox{\Hypertarget{class_element_ad9ad7d31a3b5f324665ca21d2324c618}\label{class_element_ad9ad7d31a3b5f324665ca21d2324c618}} 
+virtual \mbox{\hyperlink{class_word}{Word}} {\bfseries get\+Word} ()
+\item 
+\mbox{\Hypertarget{class_element_a42ff5b608cea64b46e2e5b1cb21c6892}\label{class_element_a42ff5b608cea64b46e2e5b1cb21c6892}} 
+virtual \mbox{\hyperlink{class_picture}{Picture}} {\bfseries get\+Picture} ()
+\item 
+\mbox{\Hypertarget{class_element_ae74a9371bbbb6444e4b7d001dba56c90}\label{class_element_ae74a9371bbbb6444e4b7d001dba56c90}} 
+void {\bfseries increase\+Remembering\+Rate} ()
+\item 
+\mbox{\Hypertarget{class_element_a9fca38b12a3c6bdda25785e4a34ad9bf}\label{class_element_a9fca38b12a3c6bdda25785e4a34ad9bf}} 
+void {\bfseries decrease\+Remembering\+Rate} ()
+\item 
+\mbox{\Hypertarget{class_element_a02a96acb593527ad29e3eeade4b0db3c}\label{class_element_a02a96acb593527ad29e3eeade4b0db3c}} 
+void {\bfseries increase\+Element\+Number} ()
+\item 
+\mbox{\Hypertarget{class_element_a37a5f4e146bd163265ac635221db0989}\label{class_element_a37a5f4e146bd163265ac635221db0989}} 
+void {\bfseries set\+State} ()
+\item 
+\mbox{\Hypertarget{class_element_a5b9df05146831f5a2ebb4ec2217e4b58}\label{class_element_a5b9df05146831f5a2ebb4ec2217e4b58}} 
+void {\bfseries set\+Element\+Number} (unsigned int number)
+\item 
+\mbox{\Hypertarget{class_element_aa2c0c0905c4b35e907370e7dcb17d58a}\label{class_element_aa2c0c0905c4b35e907370e7dcb17d58a}} 
+unsigned int {\bfseries get\+Remembering\+Rate} ()
+\item 
+\mbox{\Hypertarget{class_element_ac75b3627ff0489f08ffd97c6c2c190bd}\label{class_element_ac75b3627ff0489f08ffd97c6c2c190bd}} 
+unsigned int {\bfseries get\+State} ()
+\item 
+\mbox{\Hypertarget{class_element_afb522900996a2af26c6a5924934532c3}\label{class_element_afb522900996a2af26c6a5924934532c3}} 
+unsigned int {\bfseries get\+Element\+Number} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Klasa reprezentująca pojedyńczy element z danej bazy, dostarcza funkcje umożliwiające zarządzanie danym elementem, w tym m.\+in zmianę jego stanu, zwiększenie lub zmniejszenie współczynnika zapamiętania itp. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+element.\+h\item 
+element.\+cpp\end{DoxyCompactItemize}
